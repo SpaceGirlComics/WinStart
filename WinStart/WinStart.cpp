@@ -1,6 +1,6 @@
 #include "WinStart.h"
-#include "commands.h"
-#include "resource.h"
+//#include "commands.h"
+//#include "resource.h"
 #include "Wnd.h"
 
 #if _WIN64

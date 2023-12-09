@@ -51,9 +51,9 @@ public:
 	static const unsigned int STR = 0x00000005;						// Store right
 	static const unsigned int TAL = 0x00000006;						// Transfer acc to left
 	static const unsigned int TAR = 0x00000007;						// Transfer acc to right
-	static const unsigned int TSL = 0x00000008;						// Transfer Local Stack Pointer to left
+	static const unsigned int TSL = 0x00000008;						// Transfer Object Stack Pointer to left
 	static const unsigned int TLA = 0x00000009;						// Transfer left to acc
-	static const unsigned int TLS = 0x0000000A;						// Transfer left to Local Stack Pointer
+	static const unsigned int TLS = 0x0000000A;						// Transfer left to Object Stack Pointer
 	static const unsigned int TRA = 0x0000000B;						// Transfer right to acc
 	static const unsigned int SWP = 0x0000000C;						// Swap Left and Right
 	static const unsigned int ADD = 0x0000000D;						// Add Left To Right, Store Result in acc
@@ -70,7 +70,6 @@ public:
 	static const unsigned int JEZ = 0x00000018;						// Jump if acc is Zero
 	static const unsigned int JNZ = 0x00000019;						// Jump if acc is Not Zero
 	static const unsigned int KIL = 0x0000001A;						// Delete Subobject
-	static const unsigned int NMP = 0x00002000;						// Create New Map
 	~Object();
 
 protected:

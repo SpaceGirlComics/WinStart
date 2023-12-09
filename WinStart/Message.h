@@ -21,18 +21,6 @@ typedef struct _THREEFLOAT
 	float b;
 } THREEFLOAT, * LPTHREEFLOAT;
 
-typedef struct _NEWMAP
-{
-	String name;
-	int sourceWidth;
-	int sourceHeight;
-	int destWidth;
-	int destHeight;
-	int mapWidth;
-	int mapHeight;
-	String tilemap;
-} NEWMAP, * LPNEWMAP;
-
 class Message
 {
 public:
